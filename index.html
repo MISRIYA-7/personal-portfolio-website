@@ -1,0 +1,509 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Misriya | Portfolio</title><style>
+  
+*{
+  
+margin:0;
+  
+padding:0;
+  
+box-sizing:border-box;
+  
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+scroll-behavior:smooth;
+  
+}
+  
+
+  
+body{
+  
+background:#f9f6f0;
+  
+color:#2d2020;
+  
+line-height:1.6;
+  
+}
+  
+
+  
+header{
+  
+height:100vh;
+  
+display:flex;
+  
+flex-direction:column;
+  
+justify-content:center;
+  
+align-items:center;
+  
+text-align:center;
+  
+padding:20px;
+  
+background:linear-gradient(135deg, #421212, #5c1d1d);
+  
+}
+  
+
+  
+header h1{
+  
+font-family: 'Playfair Display', 'Didot', 'Cinzel', 'Georgia', serif;
+  
+font-size:4.5rem;
+  
+color:#f9f6f0;
+  
+margin-bottom:10px;
+  
+letter-spacing: 2px;
+  
+font-weight: 700;
+  
+text-transform: uppercase;
+  
+}
+  
+
+  
+header p{
+  
+font-size:1.2rem;
+  
+color:#dfd3c3;
+  
+max-width:700px;
+  
+letter-spacing: 1px;
+  
+}
+  
+
+  
+.btn{
+  
+display:inline-block;
+  
+margin-top:25px;
+  
+padding:12px 24px;
+  
+background:#f9f6f0;
+  
+color:#5c1d1d;
+  
+text-decoration:none;
+  
+border-radius:0px;
+  
+font-weight:bold;
+  
+text-transform: uppercase;
+  
+letter-spacing: 1px;
+  
+border: 2px solid #f9f6f0;
+  
+transition:0.3s;
+  
+}
+  
+
+  
+.btn:hover{
+  
+background:transparent;
+  
+color:#f9f6f0;
+  
+}
+  
+
+  
+section{
+  
+padding:80px 10%;
+  
+}
+  
+
+  
+h2{
+  
+font-family: 'Playfair Display', 'Didot', 'Cinzel', 'Georgia', serif;
+  
+font-size:2.5rem;
+  
+margin-bottom:20px;
+  
+color:#5c1d1d;
+  
+text-transform: uppercase;
+  
+letter-spacing: 1px;
+  
+border-bottom: 2px solid #5c1d1d;
+  
+display: inline-block;
+  
+padding-bottom: 5px;
+  
+}
+  
+
+  
+.card{
+  
+background:#5c1d1d;
+  
+padding:30px;
+  
+border-radius:0px;
+  
+margin-top:20px;
+  
+box-shadow:0 6px 15px rgba(0,0,0,0.1);
+  
+color:#f9f6f0;
+  
+}
+  
+
+  
+.card h3{
+  
+font-family: 'Playfair Display', 'Didot', 'Georgia', serif;
+  
+color:#dfd3c3;
+  
+margin-bottom:10px;
+  
+font-size: 1.5rem;
+  
+text-transform: uppercase;
+  
+}
+  
+
+  
+.skills{
+  
+display:grid;
+  
+grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+  
+gap:15px;
+  
+}
+  
+
+  
+.skill{
+  
+background:#dfd3c3;
+  
+color:#421212;
+  
+padding:15px;
+  
+border-radius:0px;
+  
+text-align:center;
+  
+font-weight:600;
+  
+text-transform: uppercase;
+  
+letter-spacing: 1px;
+  
+font-size: 0.9rem;
+  
+border: 1px solid #c2b4a2;
+  
+}
+  
+
+  
+.project{
+  
+background:#f9f6f0;
+  
+padding:25px;
+  
+border: 1px solid #5c1d1d;
+  
+margin-bottom:20px;
+  
+box-shadow:0 4px 12px rgba(92,29,29,0.06);
+  
+border-radius:0px;
+  
+color:#2d2020;
+  
+}
+  
+
+  
+.project h3{
+  
+font-family: 'Playfair Display', 'Didot', 'Georgia', serif;
+  
+color:#5c1d1d;
+  
+margin-bottom:10px;
+  
+text-transform: uppercase;
+  
+font-size: 1.4rem;
+  
+}
+  
+
+  
+footer{
+  
+background:#421212;
+  
+text-align:center;
+  
+padding:35px;
+  
+margin-top:50px;
+  
+color:#dfd3c3;
+  
+text-transform: uppercase;
+  
+letter-spacing: 1px;
+  
+font-size: 0.9rem;
+  
+}
+  
+
+  
+.card a{
+  
+color:#dfd3c3;
+  
+text-decoration:none;
+  
+font-weight:600;
+  
+border-bottom: 1px dashed #dfd3c3;
+  
+}
+  
+
+  
+.card a:hover{
+  
+color: white;
+  
+border-bottom-style: solid;
+  
+}
+  
+
+  
+@media(max-width:768px){
+  
+
+  
+header h1{
+  
+font-size:2.8rem;
+  
+}
+  
+
+  
+header p{
+  
+font-size:1rem;
+  
+}
+  
+
+  
+section{
+  
+padding:60px 6%;
+  
+}
+  
+
+  
+}
+  
+</style><link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet"></head><body><header><a href="Misriya_resume .pdf" class="btn" download>
+
+Download Resume
+
+</a><h1>Nafeesathul Misriya</h1><p>B.Tech Computer Science Student<br>
+
+SCMS College of Engineering & Technology, Karukutty<br><br>
+
+Aspiring Full Stack Developer | Computer Science Student | Tech Enthusiast
+
+</p><a href="#about" class="btn">Explore Portfolio</a>
+
+</header><section id="about"><h2>About Me</h2><div class="card"><p>Hello! I'm  Nafeesathul Misriya, a Computer Science undergraduate at SCMS College of Engineering and Technology, Karukutty.
+
+I am currently entering my third year of B.Tech and have a growing interest in software development, database systems, and web technologies.
+
+My technical journey began with programming in C, Java, and Python, and I am currently expanding my skills in HTML, CSS, JavaScript, and Full Stack Development.
+
+I enjoy building practical applications, exploring new technologies, and solving real-world problems through software.
+
+</p></div></section><section><h2>Skills</h2><div class="skills"><div class="skill">Java</div><div class="skill">Python</div><div class="skill">C Programming</div><div class="skill">HTML</div><div class="skill">CSS</div><div class="skill">JavaScript (Learning)</div><div class="skill">MySQL</div><div class="skill">MongoDB</div><div class="skill">Visual Studio Code</div><div class="skill">Database Management Systems</div><div class="skill">Problem Solving</div><div class="skill">Team Collaboration</div></div></section><section><h2>Projects</h2><div class="project"><h3>Personal Portfolio Website</h3><p>Designed and developed a responsive personal portfolio website using HTML, CSS, and JavaScript to showcase projects, technical skills, certifications, and academic achievements.
+
+</p></div><div class="project"><h3>Todo Petal – Task Management Application</h3><p>Developed a task management application using Java and MySQL. The system allows users to create, organize, update, and manage daily tasks efficiently through a structured interface.
+
+</p></div><div class="project"><h3>Contact Book Management System</h3><p>Built using Python and MongoDB. The application supports storing, searching, updating, and managing contact information with database integration.
+
+</p></div><div class="project"><h3>Mobile Shop Management System</h3><p>Developed a Mobile Shop Management System using Python and MySQL. The application allows users to manage customer details, supplier information, inventory records, and sales transactions efficiently through a structured database-driven interface.
+
+</p></div></section><section><h2>Education</h2>
+
+
+
+<div class="card">
+
+
+
+    <h3>Bachelor of Technology (B.Tech)</h3>
+
+
+
+    <p>
+
+        Computer Science and Engineering
+
+        <br><br>
+
+        SCMS College of Engineering and Technology
+
+        <br>
+
+        Karukutty, Angamaly, Kerala
+
+        <br>
+
+        APJ Abdul Kalam Technological University (KTU)
+
+        <br>
+
+        CGPA: 8.05
+
+        <br><br>
+
+        Expected Graduation: 2028
+
+    </p>
+
+
+
+</div>
+
+
+
+<div class="card">
+
+
+
+    <h3>Higher Secondary Education (Class XII)</h3>
+
+
+
+    <p>
+
+        Al Ameen Public School, Edappally
+
+        <br>
+
+        Central Board of Secondary Education (CBSE)
+
+        <br>
+
+        Percentage: 92.4%
+
+        <br>
+
+        Year of Completion: 2024
+
+    </p>
+
+
+
+</div>
+
+
+
+<div class="card">
+
+
+
+    <h3>Secondary Education (Class X)</h3>
+
+
+
+    <p>
+
+        Al Ameen Public School, Edappally
+
+        <br>
+
+        Central Board of Secondary Education (CBSE)
+
+        <br>
+
+        Percentage: 92.6%
+
+        <br>
+
+        Year of Completion: 2022
+
+    </p>
+
+
+
+</div>
+
+</section><section><h2>Career Objective</h2><div class="card"><p>To continuously enhance my technical skills and contribute to innovative software solutions while growing as a Full Stack Developer. I am eager to gain industry experience through internships, collaborative projects, and continuous learning.
+
+</p></div></section><section><h2>Certifications</h2><div class="card"><p>• Python Essentials 1 – Cisco Networking Academy
+
+<br><br>
+
+• AI-900: Microsoft Azure AI Fundamentals
+
+<br><br>
+
+• PL-900: Microsoft Power Platform Fundamentals
+
+<br><br>
+
+• AI Builders Lab Bootcamp
+
+<br><br>
+
+• AccelerateX AI Internship Program
+
+</p></div></section><section><h2>Contact</h2><div class="card"><p>📧 Email:
+
+<a href="mailto:nafeesathulmisriya187@gmail.com">nafeesathulmisriya187@gmail.com
+
+</a></p><br><p>💻 GitHub:
+
+<a href="https://github.com/MISRIYA-7" target="_blank">github.com/MISRIYA-7
+
+</a></p><br><p>🔗 LinkedIn:
+
+<a href="https://www.linkedin.com/in/nafeesathul-misriya7" target="_blank">linkedin.com/in/nafeesathul-misriya7
+
+</a></p></div></section><footer><p>© Nafeesathul Misriya | Portfolio Website</p></footer></body></html>
